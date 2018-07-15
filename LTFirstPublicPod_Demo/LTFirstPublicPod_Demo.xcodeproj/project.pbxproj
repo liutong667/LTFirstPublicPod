@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89B10F620FB773B003839DA /* LTFirstPublicPod in Resources */ = {isa = PBXBuildFile; fileRef = A89B10F520FB773B003839DA /* LTFirstPublicPod */; };
 		A8DC8B2C20F8BAB100A2E0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B2B20F8BAB100A2E0AA /* AppDelegate.m */; };
 		A8DC8B2F20F8BAB100A2E0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B2E20F8BAB100A2E0AA /* ViewController.m */; };
 		A8DC8B3220F8BAB100A2E0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DC8B3020F8BAB100A2E0AA /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		A8DC8B3A20F8BAB200A2E0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B3920F8BAB200A2E0AA /* main.m */; };
 		A8DC8B4420F8BAB300A2E0AA /* LTFirstPublicPod_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B4320F8BAB300A2E0AA /* LTFirstPublicPod_DemoTests.m */; };
 		A8DC8B4F20F8BAB300A2E0AA /* LTFirstPublicPod_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B4E20F8BAB300A2E0AA /* LTFirstPublicPod_DemoUITests.m */; };
-		A8DC8B6020F8BB0E00A2E0AA /* firstPodClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC8B5F20F8BB0E00A2E0AA /* firstPodClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A89B10F520FB773B003839DA /* LTFirstPublicPod */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LTFirstPublicPod; path = ../LTFirstPublicPod; sourceTree = "<group>"; };
 		A8DC8B2720F8BAB100A2E0AA /* LTFirstPublicPod_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTFirstPublicPod_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DC8B2A20F8BAB100A2E0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8DC8B2B20F8BAB100A2E0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +53,6 @@
 		A8DC8B4A20F8BAB300A2E0AA /* LTFirstPublicPod_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTFirstPublicPod_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DC8B4E20F8BAB300A2E0AA /* LTFirstPublicPod_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFirstPublicPod_DemoUITests.m; sourceTree = "<group>"; };
 		A8DC8B5020F8BAB300A2E0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8DC8B5E20F8BB0E00A2E0AA /* firstPodClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstPodClass.h; sourceTree = "<group>"; };
-		A8DC8B5F20F8BB0E00A2E0AA /* firstPodClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstPodClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +83,7 @@
 		A8DC8B1E20F8BAB100A2E0AA = {
 			isa = PBXGroup;
 			children = (
-				A8DC8B5D20F8BAE700A2E0AA /* LTFirstPublicPod */,
+				A89B10F520FB773B003839DA /* LTFirstPublicPod */,
 				A8DC8B2920F8BAB100A2E0AA /* LTFirstPublicPod_Demo */,
 				A8DC8B4220F8BAB200A2E0AA /* LTFirstPublicPod_DemoTests */,
 				A8DC8B4D20F8BAB300A2E0AA /* LTFirstPublicPod_DemoUITests */,
@@ -134,15 +133,6 @@
 				A8DC8B5020F8BAB300A2E0AA /* Info.plist */,
 			);
 			path = LTFirstPublicPod_DemoUITests;
-			sourceTree = "<group>";
-		};
-		A8DC8B5D20F8BAE700A2E0AA /* LTFirstPublicPod */ = {
-			isa = PBXGroup;
-			children = (
-				A8DC8B5E20F8BB0E00A2E0AA /* firstPodClass.h */,
-				A8DC8B5F20F8BB0E00A2E0AA /* firstPodClass.m */,
-			);
-			path = LTFirstPublicPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +240,7 @@
 			files = (
 				A8DC8B3720F8BAB200A2E0AA /* LaunchScreen.storyboard in Resources */,
 				A8DC8B3420F8BAB200A2E0AA /* Assets.xcassets in Resources */,
+				A89B10F620FB773B003839DA /* LTFirstPublicPod in Resources */,
 				A8DC8B3220F8BAB100A2E0AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +269,6 @@
 				A8DC8B2F20F8BAB100A2E0AA /* ViewController.m in Sources */,
 				A8DC8B3A20F8BAB200A2E0AA /* main.m in Sources */,
 				A8DC8B2C20F8BAB100A2E0AA /* AppDelegate.m in Sources */,
-				A8DC8B6020F8BB0E00A2E0AA /* firstPodClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

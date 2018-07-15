@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface firstPodClass : NSObject
-
+@property(nonatomic, assign) int a;
 @end
